@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\closeicon.png" />
+    <None Remove="Assets\Image4.png" />
+    <None Remove="Assets\Image6.png" />
+    <None Remove="Assets\Image7.png" />
+    <None Remove="Assets\Image8.png" />
+    <None Remove="Assets\Image9.png" />
+    <None Remove="Assets\s8background.png" />
+    <None Remove="bookicon1.png" />
+    <None Remove="bookicon2.png" />
+    <None Remove="crosshair1.png" />
+    <None Remove="crown1.png" />
+    <None Remove="icon.png" />
+    <None Remove="Image4.png" />
+    <None Remove="medal1.png" />
+    <None Remove="timeicon1.png" />
+    <None Remove="timeicon2.png" />
+    <None Remove="Ziva gamer pic.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\closeicon.png" />
+    <Resource Include="Assets\Image4.png" />
+    <Resource Include="Assets\Image6.png" />
+    <Resource Include="Assets\Image7.png" />
+    <Resource Include="Assets\Image8.png" />
+    <Resource Include="Assets\Image9.png" />
+    <Resource Include="Assets\s8background.png" />
+    <Resource Include="bookicon1.png" />
+    <Resource Include="bookicon2.png" />
+    <Resource Include="crosshair1.png" />
+    <Resource Include="crown1.png" />
+    <Resource Include="icon.png" />
+    <Resource Include="Image4.png" />
+    <Resource Include="medal1.png" />
+    <Resource Include="timeicon1.png" />
+    <Resource Include="timeicon2.png" />
+    <Resource Include="Ziva gamer pic.jpg" />
+  </ItemGroup>
+
+</Project>
